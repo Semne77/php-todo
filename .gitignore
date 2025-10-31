@@ -1,0 +1,6 @@
+# ignore env secrets
+.env
+/.env.local
+/vendor/
+/node_modules/
+/.DS_Store

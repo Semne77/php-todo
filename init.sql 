@@ -1,0 +1,8 @@
+-- init.sql
+CREATE TABLE IF NOT EXISTS tasks (
+  id SERIAL PRIMARY KEY,
+  title TEXT NOT NULL
+);
+
+INSERT INTO tasks (title) VALUES ('Buy milk') ON CONFLICT DO NOTHING;
+INSERT INTO tasks (title) VALUES ('Write sample app') ON CONFLICT DO NOTHING;
