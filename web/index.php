@@ -28,5 +28,7 @@ $tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
       </li>
     <?php endforeach; ?>
   </ul>
+
+  <p>stuff being changed</p>
 </body>
 </html>
